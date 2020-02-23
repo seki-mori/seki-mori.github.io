@@ -1,0 +1,114 @@
+h1,p,h2,a{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 65px;
+  overflow: auto;
+  position: fixed;
+}
+.content{
+  max-width: 1000px;
+  margin:0 auto;
+  text-align: center;
+}
+.header-right{
+  float:right;
+  line-height: 65px;
+}
+.header-right a{
+  color:black;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.header-left{
+  float: left;
+  line-height: 65px;
+}
+.introduce{
+  text-align: center;
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+}
+.introduce h1{
+  padding: 100px 0 20px 0;
+  font-size: 30px;
+  line-height: normal;
+}
+.introduce p{
+  padding-bottom: 150px;
+  line-height: normal;
+}
+
+.main h1{
+  padding:30px 0;
+
+}
+.main img{
+  width: 48%;
+  margin-right: 30px;
+  height: 300px;
+}
+.main-content{
+  display: flex;
+}
+.main-content p{
+  text-align: left;
+  line-height: normal;
+}
+.lessons h1{
+  padding: 30px 0;
+}
+.lesson-wrapper{
+  display: flex;
+}
+.lesson{
+  width: 33%;
+  margin-right: 30px;
+}
+.lesson p{
+  text-align: left;
+  font-weight: normal;
+}
+.lesson img{
+  max-width: 100%;
+  height: auto;
+  width :auto;
+}
+input{
+  width: 50%;
+  height: 40px;
+  border-radius: 50px;
+}
+.btn{
+  display: block;
+  background-color: red;
+  border:1px solid white;
+  color: white;
+  text-decoration: none;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px 0 ;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.question p{
+  font-weight: normal;
+}
+.question h1{
+  padding-top: 60px;
+}
+.foot-wrapper{
+  border-top: 1px solid black;
+}
+.foot-wrapper p{
+  font-weight: normal;
+  text-align: right;
+  padding: 20px 0 50px 0;
+}
