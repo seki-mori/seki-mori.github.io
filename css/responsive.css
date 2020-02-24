@@ -1,6 +1,7 @@
 @media all and (max-width:1000px) {
   .header-right{
     float: none;
+    display:flex;
   }
   .header-left{
     float: none;
